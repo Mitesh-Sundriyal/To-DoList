@@ -1,0 +1,44 @@
+.container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: rgba(124, 126, 106, 0.87);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('https://wallpapercg.com/download/black-myth-wukong-3840x2160-25888.jpeg');
+    background-size: cover;
+}
+h1 { 
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+   }
+
+.inputbox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+input[type="text"] {
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #d8ecdd;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+button:hover {
+    background-color: #868821;
+}
+
